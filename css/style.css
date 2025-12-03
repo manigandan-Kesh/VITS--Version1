@@ -1,107 +1,9 @@
+
 /* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* Responsive Design: Mobile Compatibility */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px 20px;
-  }
-
-  .logo {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-
-  section {
-    padding: 30px;
-    margin: 20px auto;
-    max-width: 90%;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  p {
-    font-size: 0.95rem;
-  }
-
-  ul li {
-    padding: 10px;
-    font-size: 0.95rem;
-  }
-
-  .circle {
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
-  }
-
-  footer {
-    padding: 10px;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  header {
-    padding: 10px 15px;
-  }
-
-  .logo {
-    font-size: 20px;
-  }
-
-  nav a {
-    font-size: 0.9rem;
-  }
-
-  section {
-    padding: 20px;
-    margin: 15px auto;
-    max-width: 95%;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
-
-  ul li {
-    font-size: 0.9rem;
-  }
-
-  .circle {
-    width: 25px;
-    height: 25px;
-    font-size: 12px;
-  }
-
-  footer {
-    font-size: 0.8rem;
-  }
 }
 
 /* Body Styling */
@@ -129,7 +31,7 @@ body.services {
   background-size: cover;
 }
 
-/* Portfolio Page */
+/* whychooseus Page */
 body.Whychooseus {
   background: url('../images/whychooseus-bg.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -252,7 +154,7 @@ body.ContactUs section {
   background-image: url('../images/contactus-section-bg.jpg');
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   border: 2px solid #00416A;
   margin: 40px auto;
@@ -260,7 +162,6 @@ body.ContactUs section {
   box-shadow: #5f0483 0px 4px 8px 0px;
   max-width: 400px;
 }
-
 
 /* Headings */
 h1 {
@@ -354,4 +255,3 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
-
